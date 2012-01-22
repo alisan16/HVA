@@ -191,6 +191,11 @@ body {
   line-height: 18px;
   color: #404040;
 }
+
+.center 
+{
+    text-align:center;
+}
 .container {
   width: 940px;
   margin-left: auto;
@@ -1776,6 +1781,7 @@ footer {
   margin-top: 17px;
   padding-top: 17px;
   border-top: 1px solid #eee;
+  text-align: right;
 }
 .page-header {
   margin-bottom: 17px;
@@ -2422,4 +2428,9 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
   -webkit-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   -moz-box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
   box-shadow: 0 1px 4px rgba(0, 105, 214, 0.25);
+}
+
+#mainphoto
+{
+  background-image: url(pages/group.jpg);
 }
