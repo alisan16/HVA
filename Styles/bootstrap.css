@@ -185,7 +185,7 @@ textarea {
 body {
   background-color: #ffffff;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Telex, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 18px;
@@ -605,7 +605,7 @@ label,
 input,
 select,
 textarea {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Telex, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: normal;
@@ -1313,7 +1313,7 @@ table .headerSortUp.purple, table .headerSortDown.purple {
   
 }
 .topbar a {
-  color: #bfbfbf;
+  color: #2D0000;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 }
 .topbar h3 a:hover, .topbar .brand:hover, .topbar ul .active > a {
@@ -1358,7 +1358,7 @@ table .headerSortUp.purple, table .headerSortDown.purple {
 .topbar input {
   background-color: #444;
   background-color: rgba(255, 255, 255, 0.3);
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Telex, "Helvetica", Helvetica, Arial, sans-serif;
   font-size: normal;
   font-weight: 13px;
   line-height: 1;
@@ -1825,7 +1825,7 @@ footer {
   color: #ffffff;
 }
 .btn .close, .alert-message .close {
-  font-family: Arial, sans-serif;
+  font-family: Telex, sans-serif;
   line-height: 18px;
 }
 .btn.danger,
