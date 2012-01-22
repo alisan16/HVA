@@ -1414,17 +1414,7 @@ table .headerSortUp.purple, table .headerSortDown.purple {
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);*/
 
-background: rgb(102,0,0); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(102,0,0,1) 0%, rgba(154,0,0,1) 30%, rgba(154,0,0,1) 70%, rgba(102,0,0,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(102,0,0,1)), color-stop(30%,rgba(154,0,0,1)), color-stop(70%,rgba(154,0,0,1)), color-stop(100%,rgba(102,0,0,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(102,0,0,1) 0%,rgba(154,0,0,1) 30%,rgba(154,0,0,1) 70%,rgba(102,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(102,0,0,1) 0%,rgba(154,0,0,1) 30%,rgba(154,0,0,1) 70%,rgba(102,0,0,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(102,0,0,1) 0%,rgba(154,0,0,1) 30%,rgba(154,0,0,1) 70%,rgba(102,0,0,1) 100%); /* IE10+ */
-background: linear-gradient(top,  rgba(102,0,0,1) 0%,rgba(154,0,0,1) 30%,rgba(154,0,0,1) 70%,rgba(102,0,0,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#660000', endColorstr='#660000',GradientType=0 ); /* IE6-9 */
-
-
-
+  background-color: #A90000;
 
 }
 .topbar div > ul, .nav {
