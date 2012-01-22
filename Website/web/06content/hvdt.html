@@ -1,0 +1,111 @@
+<head>
+<script language="javascript" type="text/javascript">
+<!--
+var win=null;
+function NewWindow(mypage,myname,w,h,scroll,pos){
+if(pos=="random"){LeftPosition=(screen.width)?Math.floor(Math.random()*(screen.width-w)):100;TopPosition=(screen.height)?Math.floor(Math.random()*((screen.height-h)-75)):100;}
+if(pos=="center"){LeftPosition=(screen.width)?(screen.width-w)/2:100;TopPosition=(screen.height)?(screen.height-h)/2:100;}
+else if((pos!="center" && pos!="random") || pos==null){LeftPosition=0;TopPosition=20}
+settings='width='+w+',height='+h+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',location=no,directories=no,status=no,menubar=no,toolbar=no,resizable=no';
+win=window.open(mypage,myname,settings);}
+// -->
+</script>
+</head>
+
+<body style=background-color:transparent>
+<body bgcolor="#3A341D">
+<link href="styles.css" rel="stylesheet" type="text/css">
+<span class="text13"><b>The Harvard Vietnamese Dance & Drama Troupe (HVDT)</b></span><hr><p>
+<img src="http://hcs.harvard.edu/~hva/photos/2006/hvdt.jpg" border=1 width="100%"><br><a href="http://hcs.harvard.edu/~hva/photos/2006/hvdt.jpg" onclick="NewWindow(this.href,'HVDT','520','417','no','center');return false" onfocus="this.blur()">
+			<font size="2">[Zoom In]</font></A><font size="2"> </font>
+
+<p>
+<span class="text10">The Harvard Vietnamese Dance & Drama Troupe (HVDT) puts on dance and theatre performances throughout the year in order to promote Vietnamese
+and Vietnamese American culture.<br>
+<br>
+We perform annually at the Bayside Expo Center <i>Tet Festival</i>, Harvard's <i>
+Cultural Rhythms </i>show, <i>Southeast Asian Night</i> and <i>Arts First</i>. 
+Last year, HVDT was awarded &quot;Best Dance Troupe of the Year&quot; by the 
+Intercollegiate Vietnamese Student Association (IVSA).<br>
+<br>
+In addition to our annual appearances, our 2005-2006 performances include: 
+Columbia University, UMass Boston's VSA culture show and AADT's <i>Eastbound</i>.</span><span class="text10"><p>
+<font color="#FFFFFF">Information about rehearsals and tryouts for the 2006-2007 year will be available in 
+October 2006. </font> <br>
+<br>
+You do not need any experience.
+This is a great way to learn about Vietnamese culture through dance and music. 
+It is also a great opportunity to meet new people.</span><p>
+     
+<span class="text5">Please contact the board if you are interested in joining: </span><a href="mailto:hva@hcs.harvard.edu">Email us</a><br>
+<span class="text5">To request our appearance at your event, please email 
+<font color="#FFFFFF"><b>both</b></font>: </span><a href="mailto:pbui@fas.harvard.edu">Peggy Bui</a> <span class="text5">and</span> <a href="mailto:huang13@fas.harvard.edu">Weijie Huang</a> <span class="text5">with the full details of your event.</span><br>
+<span class="text5">For information about upcoming performances, please join our  official 
+mailing list:</span>
+            <a target="_blank" href="http://lists.hcs.harvard.edu/mailman/listinfo/hva-list">Subscribe</a>
+</span><br>
+            
+
+<p>
+
+</BODY>
+</HTML>
+
+<script>
+//This and others free scripts you can find on a site: artdhtml.com
+
+ns4=(navigator.appName.indexOf("Netscape")>=0 && !document.getElementById)? 1 : 0;
+ie4=(document.all && !document.getElementById)? 1 : 0;
+ie5=(document.getElementById && document.all)? 1 : 0;
+ns6=(document.getElementById && navigator.appName.indexOf("Netscape")>=0 )? 1: 0;
+w3c=(document.getElementById)? 1 : 0;
+
+wid=(ie4||ie5)?window.document.body.clientWidth-20:window.innerWidth-36
+
+if(ns4){document.write ('<layer name="di1"></layer>')}else{document.write ('<div id="di1" style="position:absolute;z-index:100" ></div>')}
+
+outd=""
+
+if(w3c)div1=document.getElementById('di1')
+if(ie4)div1=document.all['di1']
+if(ns4)div1=document.layers['di1']
+
+function move_div(x,y){
+	if (isNaN(x+y))return
+	if(ns4){div1.moveTo(x,y)}else{div1.style.left=x+'px';div1.style.top=y+'px';}
+}
+
+function write_div(text){
+	if(ns4){
+		div1.document.open();
+		div1.document.write(text);
+		div1.document.close();
+	}
+	else {div1.innerHTML=text;}
+}
+ 
+function big(n){
+ondiv=n
+		write_div("<a href=javascript:void(0) onmouseout='big_hide()' onmouseover='ondiv=1'><img border=2 name=ib src="+n+"></a>");
+		move_div(x,y)
+}
+
+function big_hide(){
+	ondiv=0;
+	t3=window.setTimeout('big_hide2()',100)
+}
+
+function big_hide2(){
+if (ondiv==0){
+	write_div("");
+	move_div(-1000,-1000)}
+}
+
+y=x=0
+function dragIt(evt){if(ie4||ie5){x=window.event.clientX+document.body.scrollLeft; y=window.event.clientY+document.body.scrollTop}else {x=evt.pageX ; y=evt.pageY }}
+
+document.onmousemove = dragIt
+if(ns4){document.captureEvents( Event.MOUSEMOVE )}
+
+
+</script>

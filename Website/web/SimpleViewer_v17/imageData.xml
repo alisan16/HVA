@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SIMPLEVIEWER_DATA maxImageDimension="600" textColor="0xFFFFFF" frameColor="0xFFFFFF" bgColor="0x181818" frameWidth="7" stagePadding="15" thumbnailColumns="1" thumbnailRows="4" navPosition="left" navDirection="LTR" title="HVA Photo Portfolio" imagePath="" thumbPath="">
+<IMAGE>
+	<NAME>hanhi_will.jpg</NAME>
+	<CAPTION>Tet: Ha Nhi & Will</CAPTION>
+</IMAGE>
+<IMAGE>
+	<NAME>hvadance.jpg</NAME>
+	<CAPTION>Tet: HVA Dance Troupe</CAPTION>
+</IMAGE>
+<IMAGE>
+	<NAME>hvadance4.jpg</NAME>
+	<CAPTION>Tet: HVA Dance Troupe</CAPTION>
+</IMAGE>
+<IMAGE>
+	<NAME>hvadance2.jpg</NAME>
+	<CAPTION>Tet: HVA Dance Troupe</CAPTION>
+</IMAGE>
+<IMAGE>
+	<NAME>hvadance5.jpg</NAME>
+	<CAPTION>Tet: Peggy</CAPTION>
+</IMAGE>
+<IMAGE>
+	<NAME>hvatree.jpg</NAME>
+	<CAPTION>Tet: Tree</CAPTION>
+</IMAGE>
+<IMAGE>
+	<NAME>vietquang.jpg</NAME>
+	<CAPTION>Tet: Viet, Quang, & Friend</CAPTION>
+</IMAGE>
+<IMAGE>
+	<NAME>pegmikephuong.jpg</NAME>
+	<CAPTION>Tet: Peggy, Mikey, & Phuong</CAPTION>
+</IMAGE>
+<IMAGE>
+	<NAME>hanhithanh.jpg</NAME>
+	<CAPTION>Tet: HaNhi & Thanh</CAPTION>
+</IMAGE>
+
+
+
+</SIMPLEVIEWER_DATA>

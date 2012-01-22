@@ -1,0 +1,59 @@
+#!/usr/local/bin/perl
+#######################################################
+#                                                     #       
+# Program - Count 'n Log  version 1.0                 #
+# Written by Jason W. Maloney                         #
+# www2.bc.edu/~malonejr                               #
+#                                                     #
+# This logs and counts the number of users that       #
+# access your page.  The 'log.dat' will remain        #
+# hidden, but you do either with the counter (hidden  #
+# or not). Also, it allows you the opportunity to     #
+# exclude yourself from being added to both if you    #
+# choose.                                             #
+#                                                     #
+# MAKE SURE THAT YOU READ OVER THE TERMS OF AGREEMENT #
+# BEFORE USING THIS SCRIPT.  BY USING THIS SCRIPT,    #
+# YOU ARE AGREEING TO ABIDE BY THEM.  HOWEVER, IF YOU #
+# DON'T AGREE WITH IT, THEN DON'T MY SCRIPTS.         #
+#                                                     #
+#######################################################
+#Change Variables
+
+$your_ip = "0.0.0.0";  
+$directory = "/mnt/web/guide/aestheticsurgerycenter/";
+$print = '1';
+$count = "counter.dat";
+$log = "log.dat";
+
+##############
+#Script Begins
+
+$shortdate = `date +"%D %T %Z"`; 
+chop ($shortdate);
+
+if ($ENV{'REMOTE_ADDR'} eq $your_ip) {               
+} 
+  
+else {
+    open (COUNT, "$directory$count");
+    $counter = <COUNT>;
+    close (COUNT);
+    open (COUNT, "> $directory$count");
+    $counter += 1;
+    print COUNT "$counter";
+    close (COUNT);
+
+    open (LOG, ">>$log");
+    print "Content-type: text/plain\n\n ";
+    print LOG "Time: $shortdate\n";
+    print LOG "Host: $ENV{'REMOTE_HOST'}\n";
+    print LOG "With: $ENV{'HTTP_USER_AGENT'}\n";
+    print LOG "From: $ENV{'HTTP_REFERER'}\n\n";
+    close (LOG);  
+
+      if ($print eq '1') {               
+    print "$counter"; 
+      }
+}
+exit;
