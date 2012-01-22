@@ -192,10 +192,6 @@ body {
   color: #404040;
 }
 
-.center 
-{
-    text-align:center;
-}
 .container {
   width: 940px;
   margin-left: auto;
@@ -2433,4 +2429,9 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
 #mainphoto
 {
   background-image: url(pages/group.jpg);
+}
+
+.center 
+{
+    text-align:center;
 }
