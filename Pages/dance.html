@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Harvard Vietnamese Association</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    <script type = "text/javascript" src = "../script/tabs.js"></script>    
+    
+    <!-- Le styles -->
+    <link href="../styles/bootstrap.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Telex' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+      }
+    </style>
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+    
+  </head>
+
+  <body>
+
+    <div class="topbar">
+      <div class="fill">
+        <div class="container">
+          <a class="brand" href="index.html">HVA</a>
+          <ul class="nav">
+            <li><a href="index.html">Home</a></li>
+            <li class="active"><a href="about.html">About</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="photos.html">Photos</a></li>
+            <li><a href="contact.html">Contact & Join</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      
+      <div class="hero-unit">
+                  <img src="../Photos/dance.jpg" alt="HVA" height="420px" width="820px" />
+          <ul class = "tabs" data-tabs = "tabs">
+            <li><a href = "about.html">About</a></li>
+            <li><a href = "board.html">Board</a></li>
+            <!--<li><a href = "#classes">Classes</a></li>-->
+            <li><a href = "constitution.html">Constitution</a></li>
+            <li class ="active"><a href = "dance.html">Dance</a></li>
+            <!-- <li><a href = "#language">Table</a></li>
+            <li><a href = "#meetings">Meetings</a></li>
+            <li><a href = "#membership">Membership</a></li>
+            <li><a href = "#seanight">SEA Night</a></li>
+            <li><a href = "#volunteer">Volunteer</a></li>
+            <li><a href = "#website">Site</a></li>-->
+          </ul>
+         
+          <script>  
+            $(function () {
+                $('.tabs').tabs()
+            })
+            
+            $('.tabs').bind('change', function (e) {
+                e.target // activated tab
+                e.relatedTarget // previous tab
+            })
+          </script>
+         
+          <div id = "my-tab-content" class = "tab-content">
+            <div class = "active" id = "about">
+            <h2>HVDT</h2>
+            The Harvard Vietnamese Dance & Drama Troupe (HVDT) puts on dance and theatre performances throughout the year 
+            in order to promote Vietnamese and Vietnamese American culture.
+            <br />
+            We perform annually at the Bayside Expo Center Tet Festival, Harvard's Cultural Rhythms show, Southeast Asian Night 
+            and Arts First. In 2005, HVDT was awarded "Best Dance Troupe of the Year" by the Intercollegiate Vietnamese Student Association (IVSA).
+            <br />
+            You do not need any experience. This is a great way to learn about Vietnamese culture through dance and music. 
+            It is also a great opportunity to meet new people.
+            <br />
+            <br />
+            Please contact the board if you are interested in joining: <a href = "mailto:harvardvietnamese@gmail.com">Email us</a><br />
+            To request our appearance at your event, please email: <a href="mailto:mttran@fas.harvard.edu">Minh Tran</a><br />
+            For information about upcoming performances, please join our official mailing list: <a href = "https://lists.hcs.harvard.edu/mailman/listinfo/hva-board">Subscribe</a></div>
+            <div id = "Board">
+            </div>
+            <div id = "classes">
+            </div>
+            <div id = "constitution">
+            </div>
+            <div id = "dance">
+            </div>
+            <div id = "language">
+            </div>
+            <div id = "meetings">
+            </div>
+            <div id = "membership">
+            </div>
+            <div id = "seanight">
+            </div>
+            <div id = "volunteer">
+            </div>
+            <div class = "tab-pane" id = "website">
+            </div>
+          </div>
+          
+
+      </div>
+
+      <footer>
+        <p>&copy;2012 AHN & JCM</p>
+        <p>HVA is a student-run organization at Harvard College. <br />
+        The Harvard name and/or VERITAS shield are trademarks of the President and Fellows of Harvard College and are used by permission of Harvard University.</p>
+      </footer>
+
+      <script>
+  $(function () {
+    $('.tabs').tabs()
+  })
+</script>
+
+    </div> <!-- /container -->
+
+  </body>
+  
+</html>
